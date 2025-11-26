@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.credly.com https://www.credly.com https://*.credly.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.credly.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; frame-src 'self' https://www.credly.com https://*.credly.com; connect-src 'self' https://www.credly.com https://*.credly.com; object-src 'self';">
+    <title>Vamsidhar Boddu - Data Engineer | ML Engineer | Data Scientist</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Portfolio</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Horizontal Scroll Container -->
+    <div class="horizontal-scroll-wrapper" id="scrollWrapper">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Vamsidhar Boddu</span></h1>
+                <p class="hero-subtitle">Data Engineer | ML Engineer | Data Scientist</p>
+                <p class="hero-description">I specialize in building and managing enterprise-scale data platforms and machine learning solutions that deliver measurable business impact. With over 4 years of hands-on experience, I design and implement high-performance ETL/ELT pipelines capable of processing 10-15 million records daily, ensuring optimal data quality, reliability, and scalability across cloud-native environments.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-photo-container">
+                    <img src="images/profile.jpg" alt="Vamsidhar Boddu" class="hero-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-photo-container">
+                    <img src="images/profile.jpg" alt="Vamsidhar Boddu" class="about-photo">
+                </div>
+                <div class="about-text">
+                    <p>I am a Data Engineer with over 4 years of experience architecting and delivering enterprise-scale data platforms across diverse industries including education, energy, finance, and academic research. My expertise lies in designing and implementing high-performance ETL/ELT pipelines on cloud platforms such as AWS, Azure, and Databricks, consistently processing 10-15 million records daily with exceptional reliability and efficiency.</p>
+                    <p>Throughout my career, I have demonstrated a proven track record of driving measurable business impact through data engineering excellence. By leveraging cutting-edge technologies including PySpark, Delta Lake, Apache Airflow, Snowflake, and Great Expectations, I have consistently improved analytical reporting speeds by over 40%, enhanced ML model readiness by 30%, and reduced data quality issues by 35-50%. My solutions have powered critical business applications including real-time fraud detection systems, student retention intelligence platforms, IoT refinery monitoring solutions, and sophisticated lending risk assessment engines.</p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">4+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">10M+</div>
+                            <div class="stat-label">Daily Records</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">40%+</div>
+                            <div class="stat-label">Performance Gain</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3 class="experience-title">Data Engineer</h3>
+                        <span class="experience-company">EAB Global Inc.</span>
+                        <div class="experience-meta">
+                            <span class="experience-location">Richmond, VA</span>
+                            <span class="experience-date">June 2025 - Present</span>
+                        </div>
+                    </div>
+                    <ul class="experience-description">
+                        <li>Engineered automated data ingestion pipelines processing 1M-1.5M student and alumni records daily from 10+ LMS connectors using AWS Glue, Lambda, and EMR (PySpark), achieving 99.9% uptime with sub-5-minute data freshness SLA.</li>
+                        <li>Architected scalable multi-tier data ingestion system integrating S3 (raw zone), RDS (metadata), and Redshift (DWH) on EKS/EC2 clusters, enabling 50K+ concurrent analytical queries for institutional dashboards and reporting.</li>
+                        <li>Optimized Redshift star schemas with strategic partitioning and clustering techniques, reducing query execution time from minutes to seconds across 2,500+ universities, significantly improving dashboard performance.</li>
+                        <li>Established FERPA-compliant data governance framework with IAM role controls, automated schema validation, and dynamic PII masking, securing 50TB+ of sensitive educational data with zero compliance violations.</li>
+                        <li>Delivered production-ready analytical datasets for Navigate360's ML pipelines, powering real-time student retention prediction models that increased early risk detection accuracy by 24%.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3 class="experience-title">Cloud & Data Support Assistant</h3>
+                        <span class="experience-company">George Washington University</span>
+                        <div class="experience-meta">
+                            <span class="experience-location">Washington, D.C.</span>
+                            <span class="experience-date">August 2023 - May 2025</span>
+                        </div>
+                    </div>
+                    <ul class="experience-description">
+                        <li>Developed and deployed automated ETL pipelines using Python, Azure Data Factory, and SQL to securely migrate 5TB+ of student services data across academic systems, improving data processing efficiency by 38%.</li>
+                        <li>Created interactive Power BI and Tableau dashboards tracking application trends, department performance metrics, and research funding utilization, enabling data-driven decisions that increased student service request resolution speed by 29%.</li>
+                        <li>Implemented comprehensive data quality validation framework using Great Expectations and Azure SQL procedures, reducing data discrepancies by 41% while ensuring full FERPA compliance for institutional reporting.</li>
+                        <li>Collaborated with faculty research teams to prepare ML-ready datasets in Databricks for enrollment behavior prediction models, accelerating data science experimentation workflows by 34%.</li>
+                        <li>Optimized data storage architecture in Azure Data Lake and Snowflake through strategic partition refinement and schema normalization, reducing query execution time by 45% and improving analytical performance.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3 class="experience-title">Programmer Analyst / Data Engineer</h3>
+                        <span class="experience-company">Cognizant Technology (Client: PETRONAS)</span>
+                        <div class="experience-meta">
+                            <span class="experience-location">India</span>
+                            <span class="experience-date">February 2022 - July 2023</span>
+                        </div>
+                    </div>
+                    <ul class="experience-description">
+                        <li>Engineered high-performance PySpark and Azure Data Factory pipelines processing 10M+ daily IoT sensor records from refinery operations, enhancing near real-time monitoring accuracy by 37% for critical equipment failure prediction systems.</li>
+                        <li>Optimized Delta Lake and Azure Synapse data models using advanced partition pruning and Z-ordering techniques, reducing query execution time by 45% and accelerating business intelligence availability for drilling performance analytics.</li>
+                        <li>Implemented automated data quality framework with Great Expectations and Databricks notebooks, establishing comprehensive validation rules and anomaly detection alerts that reduced data reconciliation effort by 50%.</li>
+                        <li>Partnered with data science teams to deliver feature-engineered datasets for predictive maintenance ML models, improving model training efficiency by 33% and enhancing anomaly detection precision for high-value refinery assets.</li>
+                        <li>Established robust CI/CD workflows using Git, Azure DevOps pipelines, and comprehensive unit testing for Spark transformations, reducing production pipeline rollback incidents by 28% and ensuring reliable deployments.</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <h3 class="experience-title">Data Analyst</h3>
+                        <span class="experience-company">DMI Finance</span>
+                        <div class="experience-meta">
+                            <span class="experience-location">India</span>
+                            <span class="experience-date">January 2021 - January 2022</span>
+                        </div>
+                    </div>
+                    <ul class="experience-description">
+                        <li>Developed comprehensive SQL and Python-based credit risk analysis workflows processing 5M+ loan application records monthly, enhancing default flagging accuracy by 31% and accelerating underwriting decision support for consumer lending products.</li>
+                        <li>Designed and deployed actionable Power BI dashboards tracking EMI performance, customer delinquency trends, and portfolio segmentation analytics, enabling business teams to increase early-stage recovery targeting efficiency by 28% across high-risk cohorts.</li>
+                        <li>Automated end-to-end ETL processes using Python, SSIS, and PostgreSQL to centralize fragmented financial source feeds, reducing manual reporting preparation effort by 45% and improving data readiness for regulatory audit submissions.</li>
+                        <li>Conducted advanced A/B analytics on borrower behavior trends using statistical modeling and segmentation logic, optimizing credit scoring rules that improved approval accuracy by 22% while reducing false declines within low-risk income groups.</li>
+                        <li>Enhanced data governance framework by establishing comprehensive validation checkpoints and quality controls, decreasing mislabeled loan records by 35% and ensuring full compliance with NBFC reporting requirements.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education & Certifications</h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <div class="education-logo">
+                        <img src="images/gw-logo.png" alt="George Washington University" class="education-logo-img">
+                    </div>
+                    <div class="education-details">
+                        <h3 class="education-degree">Master of Science in Data Science</h3>
+                        <p class="education-school">George Washington University</p>
+                        <p class="education-location">Washington, D.C., USA</p>
+                        <p class="education-date">August 2023 - May 2025</p>
+                    </div>
+                </div>
+                <div class="certifications">
+                    <h3 class="certifications-title">Certifications</h3>
+                    <div class="certifications-grid">
+                        <!-- AWS Certified Cloud Practitioner -->
+                        <div class="cert-badge-wrapper">
+                            <div class="credly-badge-container">
+                                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3dc6a6d2-d464-4b7e-a04e-0860a5cffd8e" data-share-badge-host="https://www.credly.com"></div>
+                            </div>
+                            <p class="cert-name">AWS Certified Cloud Practitioner</p>
+                        </div>
+                        
+                        <!-- AWS Certified Data Engineer - Associate -->
+                        <div class="cert-badge-wrapper">
+                            <div class="credly-badge-container">
+                                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="139715b1-cc8a-4d03-9923-ffc66aa01a5c" data-share-badge-host="https://www.credly.com"></div>
+                            </div>
+                            <p class="cert-name">AWS Certified Data Engineer - Associate</p>
+                        </div>
+                        
+                        <!-- Microsoft Certified: Azure Fundamentals -->
+                        <div class="cert-badge-wrapper">
+                            <div class="credly-badge-container">
+                                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="97a2c987-f1f7-4b80-acd8-728bda6266b4" data-share-badge-host="https://www.credly.com"></div>
+                            </div>
+                            <p class="cert-name">Microsoft Certified: Azure Fundamentals</p>
+                        </div>
+                        
+                        <!-- IBM Data Science Foundations - Level 1 -->
+                        <div class="cert-badge-wrapper">
+                            <div class="credly-badge-container">
+                                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="56a4b064-affd-4468-9fa0-9f216e16cee6" data-share-badge-host="https://www.credly.com"></div>
+                            </div>
+                            <p class="cert-name">IBM Data Science Foundations - Level 1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid projects-horizontal-scroll">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">EV Adoption</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Predicting EV Adoption & Charging Infrastructure</h3>
+                        <p class="project-description">Forecasted 1.2M+ EV adoption records using Facebook Prophet with 92% accuracy to project statewide trends through 2028. Mapped demand-supply gaps using geospatial SQL & Dash dashboards, identifying 2,500+ priority charger locations to support WA's 2035 zero-emission mandate.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Prophet</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Dash</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Details</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">TransGuard360</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">TransGuard360 - Real-Time Fraud Analytics Pipeline</h3>
+                        <p class="project-description">Engineered Kafka + Spark Streaming pipeline handling 10M+ financial transactions daily with &lt;5s latency and fault-tolerant scaling. Automated ETL workflows via Apache Airflow and optimized fraud detection using SQL + Amazon QuickSight, boosting accuracy by 35% and reducing false positives by 40%.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Kafka</span>
+                            <span class="tech-tag">Spark Streaming</span>
+                            <span class="tech-tag">Airflow</span>
+                            <span class="tech-tag">AWS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Details</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">Mental Health</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Mental Health Risk Prediction using NLP</h3>
+                        <p class="project-description">Developed TensorFlow-based NLP classifier analyzing 50K+ patient statements with 92%+ accuracy to predict clinical mental health risk categories. Cut diagnostic analysis time by 50% and reduced model training runtime by 35%, validated across 100+ real-world anonymized patient case records.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">ML</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Details</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">AutoShip</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AutoShip - CI/CD Automation with Jenkins & AWS EKS</h3>
+                        <p class="project-description">Built end-to-end CI/CD pipeline using Jenkins, Docker, Ansible, and Amazon EKS to automate zero-downtime Kubernetes deployments. Eliminated 80% manual deployment effort while supporting 100K+ daily API requests with 99.99% uptime through blue-green rollout strategy.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Jenkins</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Kubernetes</span>
+                            <span class="tech-tag">AWS EKS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">View Details</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon">💻</div>
+                        <h3 class="skill-category-title">Programming & Data Processing</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item"><span>Python</span></div>
+                        <div class="skill-item"><span>SQL</span></div>
+                        <div class="skill-item"><span>PySpark</span></div>
+                        <div class="skill-item"><span>Spark Streaming</span></div>
+                        <div class="skill-item"><span>Pandas</span></div>
+                        <div class="skill-item"><span>NumPy</span></div>
+                        <div class="skill-item"><span>Scala</span></div>
+                        <div class="skill-item"><span>RESTful APIs</span></div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon">⚙️</div>
+                        <h3 class="skill-category-title">Data Engineering & ETL</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item"><span>Apache Airflow</span></div>
+                        <div class="skill-item"><span>AWS Glue</span></div>
+                        <div class="skill-item"><span>Azure Data Factory</span></div>
+                        <div class="skill-item"><span>Databricks</span></div>
+                        <div class="skill-item"><span>Delta Lake</span></div>
+                        <div class="skill-item"><span>ETL/ELT Pipelines</span></div>
+                        <div class="skill-item"><span>Data Modeling</span></div>
+                        <div class="skill-item"><span>CDC Processing</span></div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon">🗄️</div>
+                        <h3 class="skill-category-title">Databases & Storage</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item"><span>Snowflake</span></div>
+                        <div class="skill-item"><span>AWS Redshift</span></div>
+                        <div class="skill-item"><span>PostgreSQL</span></div>
+                        <div class="skill-item"><span>MySQL</span></div>
+                        <div class="skill-item"><span>Azure SQL</span></div>
+                        <div class="skill-item"><span>MongoDB</span></div>
+                        <div class="skill-item"><span>BigQuery</span></div>
+                        <div class="skill-item"><span>Parquet</span></div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon">🤖</div>
+                        <h3 class="skill-category-title">Machine Learning</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item"><span>Scikit-learn</span></div>
+                        <div class="skill-item"><span>PyTorch</span></div>
+                        <div class="skill-item"><span>TensorFlow</span></div>
+                        <div class="skill-item"><span>XGBoost</span></div>
+                        <div class="skill-item"><span>LightGBM</span></div>
+                        <div class="skill-item"><span>MLflow</span></div>
+                        <div class="skill-item"><span>Feature Engineering</span></div>
+                        <div class="skill-item"><span>NLP</span></div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon">☁️</div>
+                        <h3 class="skill-category-title">Cloud & DevOps</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item"><span>AWS (S3, Glue, Lambda, EMR)</span></div>
+                        <div class="skill-item"><span>Azure (Data Factory, Synapse)</span></div>
+                        <div class="skill-item"><span>GCP (BigQuery)</span></div>
+                        <div class="skill-item"><span>Docker</span></div>
+                        <div class="skill-item"><span>Kubernetes</span></div>
+                        <div class="skill-item"><span>Terraform</span></div>
+                        <div class="skill-item"><span>CI/CD</span></div>
+                        <div class="skill-item"><span>Git</span></div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon">📊</div>
+                        <h3 class="skill-category-title">Data Quality & Analytics</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item"><span>Great Expectations</span></div>
+                        <div class="skill-item"><span>Data Validation</span></div>
+                        <div class="skill-item"><span>Tableau</span></div>
+                        <div class="skill-item"><span>Power BI</span></div>
+                        <div class="skill-item"><span>Looker Studio</span></div>
+                        <div class="skill-item"><span>Data Governance</span></div>
+                        <div class="skill-item"><span>HIPAA/GDPR</span></div>
+                        <div class="skill-item"><span>Data Lineage</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-description">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>vamsidharboddu16@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+1 (571)-405-0806</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Richmond, VA</p>
+                        </div>
+                    </div>
+                    <div class="contact-item linkedin-item">
+                        <div class="contact-icon linkedin-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <p><a href="https://www.linkedin.com/in/vamsidhar-boddu/" target="_blank" rel="noopener noreferrer" class="contact-link linkedin-name">Vamsidhar Boddu</a></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Resume Download Section -->
+                <div class="resume-download-section">
+                    <div class="resume-download-card">
+                        <div class="resume-icon-large">📄</div>
+                        <h3 class="resume-download-title">Download My Resume</h3>
+                        <p class="resume-download-text">View or download my complete resume in PDF format</p>
+                        <div class="resume-download-buttons">
+                            <a href="documents/Vamsidhar_Boddu_Resume.pdf" target="_blank" rel="noopener noreferrer" class="resume-download-btn resume-view-btn" style="cursor: pointer;">
+                                <span>👁️</span> View Resume
+                            </a>
+                            <a href="documents/Vamsidhar_Boddu_Resume.pdf" download="Vamsidhar_Boddu_Resume.pdf" class="resume-download-btn resume-download-btn-primary">
+                                <span>⬇️</span> Download PDF
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Vamsidhar Boddu. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    </div>
+    <!-- End Horizontal Scroll Container -->
+    
+    <!-- Navigation Arrows -->
+    <button class="scroll-arrow scroll-arrow-left" id="scrollLeft" aria-label="Scroll left">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M15 18l-6-6 6-6"/>
+        </svg>
+    </button>
+    <button class="scroll-arrow scroll-arrow-right" id="scrollRight" aria-label="Scroll right">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 18l6-6-6-6"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+    <!-- Credly Embed Script - Load after DOM is ready -->
+    <script type="text/javascript">
+        // Load Credly embed script dynamically
+        (function() {
+            function loadCredlyScript() {
+                // Check if script already exists
+                if (document.querySelector('script[src*="credly.com/assets/utilities/embed.js"]')) {
+                    return;
+                }
+                
+                var script = document.createElement('script');
+                script.type = 'text/javascript';
+                script.async = true;
+                script.src = 'https://cdn.credly.com/assets/utilities/embed.js';
+                script.onload = function() {
+                    console.log('Credly embed script loaded successfully');
+                    // Force re-initialization if needed
+                    if (window.Credly && window.Credly.badgeRender) {
+                        window.Credly.badgeRender();
+                    }
+                };
+                script.onerror = function() {
+                    console.error('Failed to load Credly embed script');
+                };
+                document.body.appendChild(script);
+            }
+            
+            // Load script when DOM is ready
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', loadCredlyScript);
+            } else {
+                // DOM already loaded
+                loadCredlyScript();
+            }
+        })();
+    </script>
+</body>
+</html>
+
